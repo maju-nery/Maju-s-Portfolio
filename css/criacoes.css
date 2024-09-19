@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* TÍTULOS */
+h2 {
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 15px;
+  font-family: Poppins;
+}
+
+
+/* MOSAICO */
+.mosaico .row {
+  margin: 0;
+}
+
+.mosaic-item {
+  padding: 0;
+  margin-bottom: 20px; 
+}
+
+.mosaic-item img, .mosaic-item video {
+  width: 100%; 
+  height: 250px; 
+  object-fit: cover; 
+  border-radius: 10px;
+}
+
+/* Espaçamento entre as colunas */
+.col-md-3, .col-md-4, .col-sm-6 {
+  padding: 5px; 
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
